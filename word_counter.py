@@ -1,0 +1,7 @@
+my_words = str(input("enter a sentence here: "))
+my_list = my_words.split()
+count = len(my_list)
+print(my_list)
+print(count)
+letter_list = list(my_list[1])
+print(letter_list)
